@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px 10% 10px;
+  margin: 50px 0;
+}
+
+.linha {
+  width: 50%;
+  /* border-bottom: 3px solid rgba(130, 130, 130, 0.364); */
+  margin: 40px auto;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px 10% 10px;
+}
+
+.div-foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-perfil {
+  width: 80%;
+  height: 100% !important;
+}
+
+.div-perfil :nth-child(2) > p::selection {
+  background-color: #dc143c;
+  color: #fff;
+}
+
+.div-profissao {
+  height: 100% !important;
+  margin-right: 10px;
+}
+.div-estudos {
+  height: 100% !important;
+  margin-left: 10px;
+  border-left: 3px dashed rgba(130, 130, 130, 0.364);
+  padding-left: 10px;
+}
+
+.div-h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0px 0px;
+  color: #dc143c;
+  padding-left: 15px;
+}
+
+.div-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 15px;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px 0px rgb(63, 63, 63);
+}
+
+footer {
+  background-color: rgb(28, 23, 23);
+  color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.div-icones {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.icon {
+  font-size: 30px;
+  color: rgba(196, 255, 249, 0.556);
+}
+
+.selection::selection {
+  background-color: #1f1f68;
+  color: #fff;
+}
+
+.div-habilidades-index {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+  padding-right: 8%;
+}
+
+.botao-conhecimentos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  border: 3px solid #dc143c;
+  color: rgb(72, 72, 72);
+}
+
+.botao-conhecimentos:hover {
+  border: 3px solid rgb(72, 72, 72);
+  background-color: #dc143c77;
+  align-items: center;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.botao-conhecimentos > p {
+  margin-right: 12px;
+}
+
+.div-habilidades-index > a {
+  text-decoration: none;
+}
+
+/* SESSÃO CONHECIMENTO */
+.h1-conhecimento {
+  color: rgb(72, 72, 72);
+  background-color: rgba(255, 181, 154, 0.576);
+  padding: 20px;
+  box-shadow: 0px 0px 50px;
+}
+.img-conhecimento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  background-image: url("../assets//Conhecimento-Amplo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.div-table-conhecimento {
+  padding: 50px;
+  box-shadow: 0px -10px 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table > caption {
+  margin: 25px;
+  font-size: 35px;
+}
+
+th {
+  border-bottom: 2px solid rgb(72, 72, 72);
+}
+
+tr td {
+  border-bottom: 2px solid rgb(72, 72, 72);
+  line-height: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+tr:hover {
+  background-color: rgba(51, 51, 51, 0.501);
+  color: black;
+}
+
+tfoot > tr > td {
+  text-align: left;
+}
