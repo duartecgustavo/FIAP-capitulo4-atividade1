@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Nunito:wght@600;700;800&family=Open+Sans:wght@300;500;600&family=Poppins:wght@300;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("./background_beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    background-color: rgb(67, 47, 255);
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 61, 61);
+    border-radius: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+
+fieldset {
+  padding: 15px;
+  margin: 15px 0px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  color: rgba(0, 0, 0, 0.624);
+}
+
+h3 h2 {
+  color: rgba(0, 0, 0, 0.624);
+}
+
+.form_tittle {
+  background-color: #333;
+  height: 70px;
+  box-shadow: 3px 3px 0px rgb(67, 47, 255);
+}
+.form_tittle:hover {
+  background-color: #333;
+  height: 70px;
+  box-shadow: 3px 3px 0px rgb(196, 61, 61);
+}
+h1 {
+  color: #fff;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.container {
+  background-color: azure;
+  margin: 30px auto;
+  width: 70%;
+  padding: 10px;
+
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px rgba(51, 51, 51, 0.665);
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 15px;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: rgba(242, 242, 242, 0.487);
+  transition: 0.3s;
+}
+.input:hover {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  border-right: 0px;
+  background-color: #fff;
+}
+.input:focus-visible {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.div_input_file > h3 {
+  text-align: center;
+}
+
+.div_input_file > input[type="file"] {
+  display: none;
+}
+.div_input_file > label {
+  padding: 20px 10px;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 10px 0px 30px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.div_type_destination {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 20px;
+}
+.div_type_destination > p {
+  width: auto;
+  padding: 4px;
+}
+.type_destination_9 {
+  width: 100%;
+  border: 2px solid red;
+}
+.input_type_destination_text {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.div_input_transfer {
+  display: flex;
+}
+.div_input_transfer > p {
+  width: auto;
+  padding: 4px;
+}
+.input_type_transfer_text {
+  margin-bottom: 40px;
+}
+.div_input_time {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px;
+}
+.div_input_time > p {
+  width: 50%;
+  padding: 4px;
+}
+
+.input_exception_time_days {
+  margin-bottom: 40px;
+}
+
+.input_exception_time_days_p {
+  font-style: italic;
+}
+
+.div_days_active {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 40px;
+}
+.div_days_active > p {
+  width: auto;
+  padding: 4px;
+}
+.div_radio_animals {
+  display: flex;
+  margin: 0px 0px 40px;
+}
+.div_radio_animals > p {
+  width: auto;
+  padding: 4px;
+}
+.div_ticket {
+  display: flex;
+  margin: 0px 0px 40px;
+}
+.div_ticket > p {
+  width: 33%;
+  margin: 0px 10px;
+  padding: 4px;
+}
+
+.input_textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input_textarea:hover {
+  width: 100%;
+  height: 200px;
+}
+
+.div_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.div_buttons > button {
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #333;
+
+  color: #fff;
+  font-weight: 900;
+  border: none;
+}
+.div_buttons > .button_submit:hover {
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(67, 47, 255);
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  box-shadow: 3px 3px 0px #333;
+}
+.div_buttons > button:hover {
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(196, 61, 61);
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  box-shadow: 3px 3px 0px #333;
+}
